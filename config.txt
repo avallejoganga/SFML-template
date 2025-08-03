@@ -1,0 +1,13 @@
+Texture   TexStand 	Assets/mario_stand.png
+Texture	  TexJump  	Assets/mario_jump.png
+Texture   TexRun   	Assets/mario_run.png
+Texture   TexBrick 	Assets/brick.png
+Texture   TexBlockOff	Assets/block_off.png
+Texture   TexBlockOn  	Assets/block_on.png
+Animation Stand	   	TexStand    1      1
+Animation Run  	   	TexRun      3     10
+Animation Jump		TexJump     1      1
+Animation BlockOn	TexBlockOn  2     10
+Animation BlockOff	TexBlockOff 1      1
+Animation Brick		TexBrick    1      1
+Font	  FontPixel     Assets/Pixel_Georgia.ttf

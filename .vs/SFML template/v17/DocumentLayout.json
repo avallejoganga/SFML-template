@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{606D724A-41BF-4A23-B62E-B19C2640E739}|SFML template.vcxproj|C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\Scene_Play.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{606D724A-41BF-4A23-B62E-B19C2640E739}|SFML template.vcxproj|solutionrelative:Scene_Play.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606D724A-41BF-4A23-B62E-B19C2640E739}|SFML template.vcxproj|C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\GameEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{606D724A-41BF-4A23-B62E-B19C2640E739}|SFML template.vcxproj|solutionrelative:GameEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606D724A-41BF-4A23-B62E-B19C2640E739}|SFML template.vcxproj|C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{606D724A-41BF-4A23-B62E-B19C2640E739}|SFML template.vcxproj|solutionrelative:Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606D724A-41BF-4A23-B62E-B19C2640E739}|SFML template.vcxproj|C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\GameEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{606D724A-41BF-4A23-B62E-B19C2640E739}|SFML template.vcxproj|solutionrelative:GameEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 346,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\Scene.h",
+              "RelativeDocumentMoniker": "Scene.h",
+              "ToolTip": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\Scene.h",
+              "RelativeToolTip": "Scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T15:56:14.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameEngine.h",
+              "DocumentMoniker": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\GameEngine.h",
+              "RelativeDocumentMoniker": "GameEngine.h",
+              "ToolTip": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\GameEngine.h",
+              "RelativeToolTip": "GameEngine.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-28T10:35:26.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scene_Play.cpp",
+              "DocumentMoniker": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\Scene_Play.cpp",
+              "RelativeDocumentMoniker": "Scene_Play.cpp",
+              "ToolTip": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\Scene_Play.cpp*",
+              "RelativeToolTip": "Scene_Play.cpp*",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAAAG4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T10:16:19.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameEngine.cpp",
+              "DocumentMoniker": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\GameEngine.cpp",
+              "RelativeDocumentMoniker": "GameEngine.cpp",
+              "ToolTip": "C:\\Users\\avall\\Desktop\\DAW\\Programaci\u00F3n\\Visual Studio\\SFML Mario\\GameEngine.cpp",
+              "RelativeToolTip": "GameEngine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T08:46:27.421Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 189,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

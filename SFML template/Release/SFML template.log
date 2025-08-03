@@ -1,0 +1,120 @@
+﻿  Scene_Play.cpp
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:             T=unsigned int
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         and
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         ]
+  (compiling source file 'Scene_Play.cpp')
+  
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:             T=unsigned int
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         and
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         ]
+  (compiling source file 'Scene_Play.cpp')
+  
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(34,25): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Scene_Play.cpp')
+  
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         and
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:             T=int
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         ]
+  (compiling source file 'Scene_Play.cpp')
+  
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         and
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:             T=int
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         ]
+  (compiling source file 'Scene_Play.cpp')
+  
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         and
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:             T=int
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         ]
+  (compiling source file 'Scene_Play.cpp')
+  
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene.h(28,24): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Scene_Play.cpp')
+  
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(47,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(87,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(87,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(99,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(99,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244:             T=float
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244:         ]
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(377,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(382,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244:         with
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244:         [
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244:             _Ty=int
+C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244:         ]
+  (compiling source file 'Scene_Play.cpp')
+      C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36):
+      the template instantiation context (the oldest one first) is
+          C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(84,10):
+          see reference to function template instantiation 'T &Entity::add<CTransform,Vec2f,Vec2f,int>(Vec2f &&,Vec2f &&,int &&)' being compiled
+          with
+          [
+              T=CTransform
+          ]
+  
+  Generating code
+  1 of 1115 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SFML template.vcxproj -> C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Release\SFML template.exe
