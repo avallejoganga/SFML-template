@@ -1,81 +1,64 @@
 #pragma once
 #include "Entity.h"
 
-using EntityVec = std::vector<std::shared_ptr<Entity>>;
+
 
 class EntityManager
-{
-	
-	EntityVec							m_entities;
-	EntityVec							m_entitiesToAdd;
-	std::map<std::string, EntityVec>	m_entityMap;
-	size_t								m_totalEntities = 0;
+{	
+	std::vector<Entity>		m_entities;	
+	std::vector<Entity>		m_entitiesToAdd;
 
-	void removeDeadEntities(EntityVec& vec)
+	void addPendingEntities()
 	{
-		//Funcion que comprueba si una condición se cumple en cada objeto del vector, de cumplirse
+		for (size_t i = 0; i < m_entitiesToAdd.size(); i++)
+		{
+			m_entities.push_back(m_entitiesToAdd[i]);
+		}
+
+		m_entitiesToAdd.clear();
+	}
+
+	void removeDeadEntities()
+	{
+		//Funcion que comprueba si una condici�n se cumple en cada objeto del vector, de cumplirse
 		//se mueve al final de la lista y se recortan todos los elementos del final. Evita
 		//operator invalidation
-		vec.erase(
+		m_entities.erase(
 			std::remove_if(
 				m_entities.begin(),
 				m_entities.end(),
-				[](const std::shared_ptr<Entity>& e) {
-					return !e->isActive();
+				[](Entity e) {
+					return !EntityMemoryPool::Instance().getActive(e.id());
 				}),
-			m_entities.end());		
+			m_entities.end());
 	}
+
 
 public:
 
 	EntityManager() = default;
 
-	void update()
+
+	Entity addEntity(const std::string& tag)
 	{
-		for (auto e : m_entitiesToAdd)
-		{
-			m_entities.push_back(e);
-			m_entityMap[e->tag()].push_back(e);
-		}
-
-		m_entitiesToAdd.clear();
-
-		removeDeadEntities(m_entities);
-
-		for (auto& [tag, vec] : m_entityMap)
-		{
-			removeDeadEntities(vec);
-		}
+		Entity e = EntityMemoryPool::Instance().addEntity(tag);
+		m_entitiesToAdd.push_back(e);
+		return e;
 	}
+	
 
-	std::shared_ptr<Entity> addEntity(const std::string& tag)
-	{
-		//Estamos obligados a construirlo así y no con "make_shared" porque el constructor de Entity es privado.
-		auto entity = std::shared_ptr<Entity>(new Entity(m_totalEntities++, tag));
-
-		m_entitiesToAdd.push_back(entity);
-
-		if (m_entityMap.find(tag) == m_entityMap.end()) { m_entityMap[tag] = EntityVec(); }
-
-		return entity;
-	}
-
-	const EntityVec& getEntities()
+	const std::vector<Entity> getEntities()
 	{
 		return m_entities;
 	}
 
-	const EntityVec& getEntities(const std::string& tag)
-	{
-		if (m_entityMap.find(tag) == m_entityMap.end()) { m_entityMap[tag] = EntityVec(); }
-
-		return m_entityMap[tag];
-	}
-
-	const std::map<std::string, EntityVec>& getEntityMap()
-	{
-		return m_entityMap;
-	}
 	
+
+
+	void update()
+	{
+		removeDeadEntities();
+		addPendingEntities();		
+	}
 };
 

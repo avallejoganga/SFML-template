@@ -4,12 +4,12 @@
 
 namespace Physics
 {
-	inline Vec2f GetOverlap(std::shared_ptr<Entity> a, std::shared_ptr<Entity> b)
+	inline Vec2f GetOverlap(Entity a, Entity b)
 	{
-		Vec2f aVec = a->get<CTransform>().pos;
-		Vec2f aHalfBox = a->get<CBoundingBox>().halfSize;
-		Vec2f bVec = b->get<CTransform>().pos;
-		Vec2f bHalfBox = b->get<CBoundingBox>().halfSize;
+		Vec2f aVec = a.get<CTransform>().pos;
+		Vec2f aHalfBox = a.get<CBoundingBox>().halfSize;
+		Vec2f bVec = b.get<CTransform>().pos;
+		Vec2f bHalfBox = b.get<CBoundingBox>().halfSize;
 		Vec2f overlap;
 
 		float dx = std::abs(aVec.x - bVec.x);
@@ -22,12 +22,12 @@ namespace Physics
 		return overlap;
 	}
 
-	inline Vec2f GetPreviousOverlap(std::shared_ptr<Entity> a, std::shared_ptr<Entity> b)
+	inline Vec2f GetPreviousOverlap(Entity a, Entity b)
 	{
-		Vec2f aVec = a->get<CTransform>().prevPos;
-		Vec2f aHalfBox = a->get<CBoundingBox>().halfSize;
-		Vec2f bVec = b->get<CTransform>().prevPos;
-		Vec2f bHalfBox = b->get<CBoundingBox>().halfSize;
+		Vec2f aVec = a.get<CTransform>().prevPos;
+		Vec2f aHalfBox = a.get<CBoundingBox>().halfSize;
+		Vec2f bVec = b.get<CTransform>().prevPos;
+		Vec2f bHalfBox = b.get<CBoundingBox>().halfSize;
 		Vec2f overlap;
 
 		float dx = std::abs(aVec.x - bVec.x);

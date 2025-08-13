@@ -41,9 +41,9 @@ void Scene_Play::drawLine(const Vec2f& p1, const Vec2f p2)
 	m_game.window().draw(line, 2, sf::Lines);
 }
 
-Vec2f Scene_Play::gridToMidPixel(float gridX, float gridY, std::shared_ptr<Entity> entity)
+Vec2f Scene_Play::gridToMidPixel(float gridX, float gridY, Entity entity)
 {
-	Vec2 hSize = entity->get<CAnimation>().animation.getSize() / 2;
+	Vec2 hSize = entity.get<CAnimation>().animation.getSize() / 2;
 	int x = gridX * m_gridSize.x + hSize.x + m_camera_offset.x;
 	int y = m_game.window().getSize().y - m_camera_offset.y - (gridY * m_gridSize.y) - hSize.y;
 
@@ -52,7 +52,7 @@ Vec2f Scene_Play::gridToMidPixel(float gridX, float gridY, std::shared_ptr<Entit
 	Vec2f position = Vec2f(x, y);
 
 
-	entity->get<CTransform>().pos = position;
+	entity.get<CTransform>().pos = position;
 
 	return position;
 }
@@ -80,10 +80,10 @@ void Scene_Play::loadLevel(const std::string& filename)
 			Vec2f size = Vec2f(m_game.getAssets().getAnimation(name).getSize().x,
 				m_game.getAssets().getAnimation(name).getSize().y - 2);
 
-			auto tile = m_entities.addEntity("tile");
-			tile->add<CTransform>(Vec2f(0, 0), Vec2f(0, 0), 0);
-			tile->add<CBoundingBox>(size);
-			tile->add<CAnimation>(m_game.getAssets().getAnimation(name), true);
+			Entity tile = m_entities.addEntity("tile");
+			tile.add<CTransform>(Vec2f(0, 0), Vec2f(0, 0), 0);
+			tile.add<CBoundingBox>(size);
+			tile.add<CAnimation>(m_game.getAssets().getAnimation(name), true);
 			gridToMidPixel(x, y, tile);
 		}
 		else if (str == "Decoration")
@@ -94,8 +94,8 @@ void Scene_Play::loadLevel(const std::string& filename)
 			file >> name >> x >> y;
 
 			auto tile = m_entities.addEntity("tile");
-			tile->add<CTransform>(Vec2f(x, y), Vec2f(0, 0), 0);
-			tile->add<CAnimation>(m_game.getAssets().getAnimation(name), true);
+			tile.add<CTransform>(Vec2f(x, y), Vec2f(0, 0), 0);
+			tile.add<CAnimation>(m_game.getAssets().getAnimation(name), true);
 			gridToMidPixel(x, y, tile);
 		}
 	}
@@ -107,14 +107,14 @@ void Scene_Play::loadLevel(const std::string& filename)
 void Scene_Play::spawnPlayer()
 {
 
-	auto player = m_entities.addEntity("player");
-	player->add<CAnimation>(m_game.getAssets().getAnimation("Stand"), true);
-	player->add<CTransform>(Vec2f(224, 352), Vec2f(0, 0), 0);
-	player->add<CBoundingBox>(Vec2f(48, 48));
-	player->add<CState>("stand");
-	player->add<CInput>();
-	player->add<CGravity>(3);
-	player->get<CState>().state = "run";
+	Entity player = m_entities.addEntity("player");
+	player.add<CAnimation>(m_game.getAssets().getAnimation("Stand"), true);
+	player.add<CTransform>(Vec2f(224, 352), Vec2f(0, 0), 0);
+	player.add<CBoundingBox>(Vec2f(48, 48));
+	player.add<CState>("stand");
+	player.add<CInput>();
+	player.add<CGravity>(3);
+	player.get<CState>().state = "run";
 
 	gridToMidPixel(2, 3, player);
 
@@ -130,28 +130,28 @@ void Scene_Play::sAnimation()
 {
 	//TODO Complete Animation class
 
-	//TODO for each entity call entity->get<CAnimation>().animation.update()
+	//TODO for each entity call entity.get<CAnimation>().animation.update()
 
 	for (auto e : m_entities.getEntities())
 	{
-		if (e->has<CAnimation>())
+		if (e.has<CAnimation>())
 		{
-			e->get<CAnimation>().animation.update();
+			e.get<CAnimation>().animation.update();
 		}
 	}
 
 
 	//if the animation is not repeated and it has ended destroy the entity
 
-	auto& state = player()->get<CState>().state;
-	auto& anim = player()->get<CAnimation>().animation;
-	auto& input = player()->get<CInput>();
+	auto& state = player().get<CState>().state;
+	auto& anim = player().get<CAnimation>().animation;
+	auto& input = player().get<CInput>();
 
 	if (!input.grounded && airTime > 2)
 	{
 		state = "jump";
 	}
-	else if (std::abs(player()->get<CTransform>().velocity.x) > 0)
+	else if (std::abs(player().get<CTransform>().velocity.x) > 0)
 	{
 		state = "run";
 	}
@@ -164,16 +164,16 @@ void Scene_Play::sAnimation()
 
 	if (state == "run" && anim.getName() != "Run")
 	{
-		player()->add<CAnimation>(m_game.getAssets().getAnimation("Run"), true);
+		player().add<CAnimation>(m_game.getAssets().getAnimation("Run"), true);
 
 	}
 	else if (state == "jump" && anim.getName() != "Jump")
 	{
-		player()->add<CAnimation>(m_game.getAssets().getAnimation("Jump"), true);
+		player().add<CAnimation>(m_game.getAssets().getAnimation("Jump"), true);
 	}
 	else if (state == "stand" && anim.getName() != "Stand")
 	{
-		player()->add<CAnimation>(m_game.getAssets().getAnimation("Stand"), true);
+		player().add<CAnimation>(m_game.getAssets().getAnimation("Stand"), true);
 	}
 
 
@@ -181,11 +181,11 @@ void Scene_Play::sAnimation()
 	{
 		if (input.left)
 		{
-			player()->get<CTransform>().scale.x = -1;
+			player().get<CTransform>().scale.x = -1;
 		}
 		else if (input.right)
 		{
-			player()->get<CTransform>().scale.x = 1;
+			player().get<CTransform>().scale.x = 1;
 		}
 	}
 
@@ -195,20 +195,20 @@ void Scene_Play::sCollision()
 {
 	//TODO check if player fallen of a hole
 	//TODO player not moving outside the screen
-	auto& pTransform = player()->get<CTransform>();
-	auto& pInput = player()->get<CInput>();
-	player()->get<CInput>().grounded = false;
+	auto& pTransform = player().get<CTransform>();
+	auto& pInput = player().get<CInput>();
+	player().get<CInput>().grounded = false;
 
 	for (auto e : m_entities.getEntities())
 	{
-		if (e->has<CBoundingBox>() && e->tag() != "player")
+		if (e.has<CBoundingBox>() && e.tag() != "player")
 		{
 			Vec2f overlap = Physics::GetOverlap(player(), e);
 			Vec2f prevOverlap = Physics::GetPreviousOverlap(player(), e);
 
 			if (overlap.x > 0 && overlap.y > 0)
 			{
-				auto& eTransform = e->get<CTransform>();
+				auto& eTransform = e.get<CTransform>();
 
 				if (prevOverlap.y <= 0)
 				{
@@ -268,19 +268,19 @@ void Scene_Play::sDoAction(const Action& action)
 		}
 		else if (action.name() == "RIGHT")
 		{
-			player()->get<CInput>().right = true;
+			player().get<CInput>().right = true;
 		}
 		else if (action.name() == "LEFT")
 		{
-			player()->get<CInput>().left = true;
+			player().get<CInput>().left = true;
 		}
 		else if (action.name() == "JUMP")
 		{
-			if (player()->get<CInput>().canJump)
+			if (player().get<CInput>().canJump)
 			{
-				player()->get<CInput>().grounded = false;
-				player()->get<CInput>().up = true;
-				player()->get<CInput>().canJump = false;
+				player().get<CInput>().grounded = false;
+				player().get<CInput>().up = true;
+				player().get<CInput>().canJump = false;
 				jumpTime = 0;
 			}
 		}
@@ -289,35 +289,35 @@ void Scene_Play::sDoAction(const Action& action)
 	{
 		if (action.name() == "RIGHT")
 		{
-			player()->get<CInput>().right = false;
+			player().get<CInput>().right = false;
 		}
 		else if (action.name() == "LEFT")
 		{
-			player()->get<CInput>().left = false;
+			player().get<CInput>().left = false;
 		}
 		else if (action.name() == "JUMP")
 		{
-			player()->get<CInput>().up = false;
+			player().get<CInput>().up = false;
 		}
 	}
 }
 
 void Scene_Play::sGravity()
 {
-	auto& transform = player()->get<CTransform>();
+	auto& transform = player().get<CTransform>();
 
 	jumpTime++;
 
-	if (!player()->get<CInput>().grounded)
+	if (!player().get<CInput>().grounded)
 	{
 		airTime++;
 
 		if (airTime > 2)
 		{
-			player()->get<CInput>().canJump = false;
+			player().get<CInput>().canJump = false;
 		}
 
-		if (jumpTime >= jumpMax || !player()->get<CInput>().up)
+		if (jumpTime >= jumpMax || !player().get<CInput>().up)
 		{
 			transform.velocity.y = 8;
 		}
@@ -342,9 +342,9 @@ void Scene_Play::sLifeSpan()
 
 void Scene_Play::sMovement()
 {
-	auto& input = player()->get<CInput>();
-	auto& velocity = player()->get<CTransform>().velocity;
-	auto& state = player()->get<CState>().state;
+	auto& input = player().get<CInput>();
+	auto& velocity = player().get<CTransform>().velocity;
+	auto& state = player().get<CState>().state;
 
 	if (input.right) { velocity.x = 5; }
 	else if (input.left) { velocity.x = -5; }
@@ -354,9 +354,9 @@ void Scene_Play::sMovement()
 
 	for (auto e : m_entities.getEntities())
 	{
-		if (e->has<CTransform>())
+		if (e.has<CTransform>())
 		{
-			auto& transform = e->get<CTransform>();
+			auto& transform = e.get<CTransform>();
 			transform.prevPos = transform.pos;
 			transform.pos += transform.velocity;
 		}
@@ -368,7 +368,7 @@ void Scene_Play::sRender()
 	if (!m_paused) { m_game.window().clear(sf::Color(100, 100, 200)); }
 	else { m_game.window().clear(sf::Color(50, 50, 150)); }
 
-	auto& pPos = player()->get<CTransform>().pos;
+	auto& pPos = player().get<CTransform>().pos;
 	sf::View view = m_game.window().getView();
 	int yView = m_game.window().getSize().y / 2 - m_camera_offset.y;
 
@@ -388,11 +388,11 @@ void Scene_Play::sRender()
 	{
 		for (auto e : m_entities.getEntities())
 		{
-			auto& transform = e->get<CTransform>();
+			auto& transform = e.get<CTransform>();
 
-			if (e->has<CAnimation>())
+			if (e.has<CAnimation>())
 			{
-				auto& animation = e->get<CAnimation>().animation;
+				auto& animation = e.get<CAnimation>().animation;
 				animation.getSprite().setRotation(transform.angle);
 				animation.getSprite().setPosition(transform.pos.x, transform.pos.y);
 				animation.getSprite().setScale(transform.scale.x, transform.scale.y);
@@ -405,10 +405,10 @@ void Scene_Play::sRender()
 	{
 		for (auto e : m_entities.getEntities())
 		{
-			if (e->has<CBoundingBox>())
+			if (e.has<CBoundingBox>())
 			{
-				auto& box = e->get<CBoundingBox>();
-				auto& transform = e->get < CTransform>();
+				auto& box = e.get<CBoundingBox>();
+				auto& transform = e.get < CTransform>();
 				sf::RectangleShape rect;
 				rect.setSize(sf::Vector2f(box.size.x, box.size.y));
 				rect.setOrigin(sf::Vector2f(box.halfSize.x, box.halfSize.y));
@@ -423,40 +423,60 @@ void Scene_Play::sRender()
 
 	if (m_drawGrid)
 	{
-		for (size_t i = 0; i < 300; i++)
-		{
-			drawLine(Vec2f(m_gridSize.x + i * m_gridSize.x, -m_camera_offset.y),
-				Vec2f(m_gridSize.x + i * m_gridSize.x, m_game.window().getSize().y - m_camera_offset.y));
+		static sf::RenderTexture gridTexture;
+		static bool initialized = false;
 
-			for(int j = 12; j >= 0; j--)
+		if (!initialized)
+		{
+			int width = 100 * m_gridSize.x;
+			int height = 13 * m_gridSize.y;
+
+			gridTexture.create(width, height);
+			gridTexture.clear(sf::Color::Transparent);
+
+			
+			sf::VertexArray grid(sf::Lines);
+			for (int i = 0; i <= 100; ++i)
 			{
-				m_gridText.setPosition(i * m_gridSize.x, m_game.window().getSize().y - j * m_gridSize.y - m_camera_offset.y - m_gridSize.y);
-				m_gridText.setString("(" + std::to_string(i) + ", " + std::to_string(j) + ")");
-				m_game.window().draw(m_gridText);
+				grid.append(sf::Vertex(sf::Vector2f(i * m_gridSize.x, 0), sf::Color::White));
+				grid.append(sf::Vertex(sf::Vector2f(i * m_gridSize.x, height), sf::Color::White));
 			}
+			for (int j = 0; j <= 12; ++j)
+			{
+				grid.append(sf::Vertex(sf::Vector2f(0, j * m_gridSize.y), sf::Color::White));
+				grid.append(sf::Vertex(sf::Vector2f(width, j * m_gridSize.y), sf::Color::White));
+			}
+			gridTexture.draw(grid);
+
 			
-			
+			for (int i = 0; i < 100; ++i)
+			{
+				for (int j = 0; j <= 12; ++j)
+				{
+					m_gridText.setPosition(i * m_gridSize.x, height - (j + 1) * m_gridSize.y);
+					m_gridText.setString("(" + std::to_string(i) + ", " + std::to_string(j) + ")");
+					gridTexture.draw(m_gridText);
+				}
+			}
+
+			gridTexture.display();
+			initialized = true;
 		}
 
-		for (size_t i = 0; i < 12; i++)
-		{
-			drawLine(Vec2f(-m_camera_offset.x, -m_camera_offset.y + m_gridSize.y + i * m_gridSize.y),
-				Vec2f(m_gridSize.y * 100, -m_camera_offset.y + m_gridSize.y + i * m_gridSize.y));
-		}		
-		
-		
-
-		m_game.window().draw(m_gridText);
+		// Draw the pre-rendered texture once per frame
+		sf::Sprite gridSprite(gridTexture.getTexture());
+		gridSprite.setPosition(-m_camera_offset.x, -m_camera_offset.y);
+		m_game.window().draw(gridSprite);
 	}
+
+
 
 	m_game.window().display();
 }
 
-std::shared_ptr<Entity> Scene_Play::player()
+Entity Scene_Play::player()
 {
-	auto& players = m_entities.getEntities("player");
-
-	return players[0];
+	return m_entities.getEntities()[0];
 }
 
 void Scene_Play::update()

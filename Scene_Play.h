@@ -52,7 +52,7 @@ public:
 	void onEnd() override;
 	void drawLine(const Vec2f& p1, const Vec2f p2);
 
-	Vec2f gridToMidPixel(float x, float y, std::shared_ptr<Entity> entity);
-	std::shared_ptr<Entity> player();
+	Vec2f gridToMidPixel(float x, float y, Entity entity);
+	Entity player();
 };
 

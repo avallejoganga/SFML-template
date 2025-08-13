@@ -2,91 +2,53 @@
 #include "Components.h"
 #include <string>
 #include <tuple>
-
-using ComponentTuple = std::tuple<
-	CTransform,
-	CBoundingBox,	
-	CInput,	
-	CLifespan,
-	CAnimation,
-	CGravity,
-	CState
->;
-
-class EntityManager;
+#include "EntityMemoryPool.h"
 
 
 class Entity
 {
-	friend class EntityManager;
-
-
-	ComponentTuple	m_components;
-	bool			m_active = true;
-	std::string		m_tag = "default";
-	size_t			m_id;
-
-	Entity(const size_t& id, const std::string& tag)
-		: m_tag(tag), m_id(id){ }
+	size_t			m_id;	
 
 public:
 
-	bool isActive() const
-	{
-		return m_active;
-	}
-
-	void destroy()
-	{
-		m_active = false;
-	}
-
-	size_t id()	const
-	{
-		return m_id;
-	}
-
-	const std::string& tag() const
-	{
-		return m_tag;
-	}
-
-	template <typename T>
-	bool has() const
-	{
-		return get<T>().exists;
-	}
+	Entity(size_t id)
+		: m_id(id) {}
 
 	template<typename T, typename... TArgs>
-	T& add(TArgs&&... mArgs)
+	const T& add(TArgs&&... mArgs) const
 	{
-		auto& component = get<T>();
-		component = T(std::forward<TArgs>(mArgs)...);
-		component.exists = true;
-		return component;
+		return EntityMemoryPool::Instance().addComponent<T>(m_id, std::forward<TArgs>(mArgs)...);
 	}
 
 
 	template<typename T>
 	const T& get() const
 	{
-		return std::get<T>(m_components);
+		return EntityMemoryPool::Instance().getComponent<T>(m_id);
 	}
 
 	template<typename T>
 	T& get()
 	{
-		return std::get<T>(m_components);
+		return EntityMemoryPool::Instance().getComponent<T>(m_id);
 	}
-
-
-	template<typename T>
-	void remove()
+	
+	template <typename T>
+	bool has() const
 	{
-		get<T>() = T();
+		return EntityMemoryPool::Instance().hasComponent<T>(m_id);
+	}	
+
+	size_t id()	const
+	{
+		return m_id;	
+	}	
+	
+
+	const std::string& tag() const
+	{
+		return EntityMemoryPool::Instance().getTag(m_id);
 	}
-
-
 };
 
  
