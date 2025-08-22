@@ -1,5 +1,7 @@
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\EntityManager.cpp;C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\SFML template\Release\EntityManager.obj
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\GameEngine.cpp;C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\SFML template\Release\GameEngine.obj
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\m.cpp;C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\SFML template\Release\m.obj
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Menu.cpp;C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\SFML template\Release\Scene_Menu.obj
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp;C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\SFML template\Release\Scene_Play.obj
+C:\Users\PC\Desktop\Proyectos\SFML-template\EntityManager.cpp;C:\Users\PC\Desktop\Proyectos\SFML-template\SFML template\Release\EntityManager.obj
+C:\Users\PC\Desktop\Proyectos\SFML-template\EntityMemoryPool.cpp;C:\Users\PC\Desktop\Proyectos\SFML-template\SFML template\Release\EntityMemoryPool.obj
+C:\Users\PC\Desktop\Proyectos\SFML-template\GameEngine.cpp;C:\Users\PC\Desktop\Proyectos\SFML-template\SFML template\Release\GameEngine.obj
+C:\Users\PC\Desktop\Proyectos\SFML-template\m.cpp;C:\Users\PC\Desktop\Proyectos\SFML-template\SFML template\Release\m.obj
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Menu.cpp;C:\Users\PC\Desktop\Proyectos\SFML-template\SFML template\Release\Scene_Menu.obj
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp;C:\Users\PC\Desktop\Proyectos\SFML-template\SFML template\Release\Scene_Pathfinding.obj
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Play.cpp;C:\Users\PC\Desktop\Proyectos\SFML-template\SFML template\Release\Scene_Play.obj

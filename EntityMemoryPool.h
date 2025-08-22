@@ -11,7 +11,10 @@ typedef std::tuple<
 	std::vector<CLifespan>,
 	std::vector<CAnimation>,
 	std::vector<CGravity>,
-	std::vector<CState>
+	std::vector<CState>,
+	std::vector<CShape>,
+	std::vector<CPathfinding>,
+	std::vector<CFollow>
 > EntityComponentVectorTuple;
 
 constexpr int MAX_ENTITIES = 10000;

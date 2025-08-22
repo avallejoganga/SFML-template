@@ -1,4 +1,5 @@
 #include "Scene_Menu.h"
+#include "Scene_Pathfinding.h"
 
 Scene_Menu::Scene_Menu(GameEngine& gameEngine)
 	:Scene(gameEngine), m_selectedMenuIndex(0)
@@ -16,8 +17,8 @@ void Scene_Menu::init()
 
 	m_title = "Menu Mario";
 
-	m_levelPaths.push_back("Levels/level1.txt");
-	m_levelPaths.push_back("Levels/level2.txt");
+	m_levelPaths.push_back("Mario");
+	m_levelPaths.push_back("Pathfinding");
 
 	m_menuText.setFont(m_game.getAssets().getFont("FontPixel"));
 	m_menuText.setCharacterSize(64);
@@ -45,7 +46,15 @@ void Scene_Menu::sDoAction(const Action& action)
 		}
 		else if (action.name() == "PLAY")
 		{			
-			m_game.changeScene("PLAY", std::make_shared<Scene_Play>(m_game, m_levelPaths[m_selectedMenuIndex]));
+			if (m_selectedMenuIndex == 0)
+			{
+				m_game.changeScene("PLAY", std::make_shared<Scene_Play>(m_game, "Levels/level1.txt"));
+			}
+			else
+			{
+				m_game.changeScene("PLAY", std::make_shared<Scene_Pathfinding>(m_game));
+
+			}
 		}
 		else if (action.name() == "REPLAY")
 		{

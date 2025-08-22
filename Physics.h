@@ -39,4 +39,17 @@ namespace Physics
 		overlap = Vec2f(xValue - dx, yValue - dy);
 		return overlap;
 	}
+
+	inline float ManhattanDistance(Vec2f a, Vec2f b)
+	{
+		return std::abs(a.x - b.x) + std::abs(a.y - b.y);
+	}
+
+	inline float EuclideanDistance(Vec2f a, Vec2f b)
+	{
+		float dx = std::abs(a.x - b.x);
+		float dy = std::abs(a.y - b.y);
+
+		return dx * dx + dy * dy;
+	}
 }

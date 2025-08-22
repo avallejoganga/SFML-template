@@ -51,6 +51,12 @@
     <ClInclude Include="Scene_Play.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EntityMemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Pathfinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EntityManager.cpp">
@@ -66,6 +72,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="m.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Pathfinding.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

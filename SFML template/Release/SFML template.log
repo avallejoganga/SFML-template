@@ -1,120 +1,207 @@
-﻿  Scene_Play.cpp
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:             T=unsigned int
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         and
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,93): warning C4244:         ]
-  (compiling source file 'Scene_Play.cpp')
+﻿  Scene_Pathfinding.cpp
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244:             T=unsigned int
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244:         and
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,93): warning C4244:         ]
+  (compiling source file 'Scene_Pathfinding.cpp')
   
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:             T=unsigned int
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         and
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(25,49): warning C4244:         ]
-  (compiling source file 'Scene_Play.cpp')
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244:             T=unsigned int
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244:         and
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(25,49): warning C4244:         ]
+  (compiling source file 'Scene_Pathfinding.cpp')
   
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(34,25): warning C4018: '>=': signed/unsigned mismatch
-  (compiling source file 'Scene_Play.cpp')
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(34,25): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Scene_Pathfinding.cpp')
   
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         and
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:             T=int
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,74): warning C4244:         ]
-  (compiling source file 'Scene_Play.cpp')
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244:         and
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244:             T=int
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,74): warning C4244:         ]
+  (compiling source file 'Scene_Pathfinding.cpp')
   
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         and
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:             T=int
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,66): warning C4244:         ]
-  (compiling source file 'Scene_Play.cpp')
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244:         and
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244:             T=int
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,66): warning C4244:         ]
+  (compiling source file 'Scene_Pathfinding.cpp')
   
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         and
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:             T=int
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Animation.h(38,49): warning C4244:         ]
-  (compiling source file 'Scene_Play.cpp')
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244:         and
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244:             T=int
+C:\Users\PC\Desktop\Proyectos\SFML-template\Animation.h(38,49): warning C4244:         ]
+  (compiling source file 'Scene_Pathfinding.cpp')
   
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene.h(28,24): warning C4018: '<': signed/unsigned mismatch
-  (compiling source file 'Scene_Play.cpp')
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene.h(28,24): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Scene_Pathfinding.cpp')
   
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(47,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(48,8): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,28): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(52,25): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(87,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(87,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,35): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(97,32): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(99,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(99,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244:             T=float
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(373,12): warning C4244:         ]
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(377,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(382,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244:         with
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244:         [
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244:             _Ty=int
-C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36): warning C4244:         ]
-  (compiling source file 'Scene_Play.cpp')
-      C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Entity.h(64,36):
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,52): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,52): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,52): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,52): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,52): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,49): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,49): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,49): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,49): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(33,49): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(86,8): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(86,8): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(86,8): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(86,8): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(86,8): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(87,8): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(87,8): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(87,8): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(87,8): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(87,8): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,18): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,18): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,18): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,18): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,18): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,15): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,15): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,15): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,15): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(89,15): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(142,8): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(142,8): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(142,8): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(142,8): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(142,8): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(143,8): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(143,8): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(143,8): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(143,8): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(143,8): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,18): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,18): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,18): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,18): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,18): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,15): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,15): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,15): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,15): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(145,15): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(186,15): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(186,15): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(186,15): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(186,15): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(186,15): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(221,14): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(221,14): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(221,14): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(221,14): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(221,14): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(222,15): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(222,15): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(222,15): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(222,15): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(222,15): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(232,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(232,59): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(232,59): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(232,59): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(232,59): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(237,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(237,41): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(237,41): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(237,41): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(237,41): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(365,15): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(365,15): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(365,15): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(365,15): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(365,15): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(366,16): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(366,16): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(366,16): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(366,16): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(366,16): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(415,17): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(415,17): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(415,17): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(415,17): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(415,17): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(439,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(483,16): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(483,16): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(483,16): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(483,16): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(483,16): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(512,17): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(512,17): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(512,17): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(512,17): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(512,17): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(536,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(581,18): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(581,18): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(581,18): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(581,18): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(581,18): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(585,18): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(585,18): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(585,18): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(585,18): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(585,18): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(586,17): warning C4244: 'initializing': conversion from 'T' to 'size_t', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(586,17): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(586,17): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(586,17): warning C4244:             T=float
+C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(586,17): warning C4244:         ]
+C:\Users\PC\Desktop\Proyectos\SFML-template\EntityMemoryPool.h(41,36): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\PC\Desktop\Proyectos\SFML-template\EntityMemoryPool.h(41,36): warning C4244:         with
+C:\Users\PC\Desktop\Proyectos\SFML-template\EntityMemoryPool.h(41,36): warning C4244:         [
+C:\Users\PC\Desktop\Proyectos\SFML-template\EntityMemoryPool.h(41,36): warning C4244:             _Ty=int
+C:\Users\PC\Desktop\Proyectos\SFML-template\EntityMemoryPool.h(41,36): warning C4244:         ]
+  (compiling source file 'Scene_Pathfinding.cpp')
+      C:\Users\PC\Desktop\Proyectos\SFML-template\EntityMemoryPool.h(41,36):
       the template instantiation context (the oldest one first) is
-          C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Scene_Play.cpp(84,10):
-          see reference to function template instantiation 'T &Entity::add<CTransform,Vec2f,Vec2f,int>(Vec2f &&,Vec2f &&,int &&)' being compiled
+          C:\Users\PC\Desktop\Proyectos\SFML-template\Scene_Pathfinding.cpp(71,19):
+          see reference to function template instantiation 'T &Entity::add<CShape,int,int>(int &&,int &&)' being compiled
           with
           [
-              T=CTransform
+              T=CShape
+          ]
+          C:\Users\PC\Desktop\Proyectos\SFML-template\Entity.h(26,39):
+          see reference to function template instantiation 'T &EntityMemoryPool::addComponent<CShape,_Ty,_Ty>(size_t,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              T=CShape,
+              _Ty=int
           ]
   
   Generating code
-  1 of 1115 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+  1 of 1884 functions (<0.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  SFML template.vcxproj -> C:\Users\avall\Desktop\DAW\Programación\Visual Studio\SFML Mario\Release\SFML template.exe
+  SFML template.vcxproj -> C:\Users\PC\Desktop\Proyectos\SFML-template\Release\SFML template.exe

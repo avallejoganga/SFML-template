@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -149,18 +149,22 @@
     <ClInclude Include="Components.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="EntityMemoryPool.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="Physics.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Scene_Menu.h" />
+    <ClInclude Include="Scene_Pathfinding.h" />
     <ClInclude Include="Scene_Play.h" />
     <ClInclude Include="Vec2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="EntityMemoryPool.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="m.cpp" />
     <ClCompile Include="Scene_Menu.cpp" />
+    <ClCompile Include="Scene_Pathfinding.cpp" />
     <ClCompile Include="Scene_Play.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

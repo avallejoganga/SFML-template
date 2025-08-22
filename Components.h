@@ -16,11 +16,12 @@ public:
 	Vec2f prevPos{ 0, 0 };
 	Vec2f scale{ 1.0, 1.0 };
 	Vec2f velocity{ 0, 0 };
+	float speed = 0;
 	float angle = 0;
 
 	CTransform() = default;
-	CTransform(const Vec2f& p, const Vec2f& v, float a)
-		: pos(p), velocity(v), angle(a)	{ }
+	CTransform(const Vec2f& p, const Vec2f& v, float s)
+		: pos(p), velocity(v), speed(s)	{ }
 };
 
 
@@ -93,5 +94,37 @@ public:
 	bool grounded = true;
 
 	CInput() = default;
+};
+
+class CShape : public Component
+{
+public:
+	sf::CircleShape shape = sf::CircleShape(10, 20);
+
+	CShape() = default;
+
+	CShape(float radius, size_t points) 
+	{
+		shape = sf::CircleShape(radius, points);
+	}
+};
+
+
+class CPathfinding : public Component
+{
+public:
+
+	std::vector<size_t>		path;
+	int						currentNode;
+	bool					pathing;
+
+	CPathfinding() = default;
+};
+
+class CFollow : public Component
+{
+public:
+	size_t		node;
+	bool		following;
 };
 

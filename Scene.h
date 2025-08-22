@@ -32,13 +32,13 @@ public:
 	}
 
 	
-	virtual void registerAction(int inputKey, std::string action)
+	virtual void registerAction(int inputKey, const std::string& action)
 	{
 		m_actionMap[inputKey] = action;
 	}
 
 	virtual void onEnd() = 0;
-	virtual std::map<int, std::string>& getActionMap()
+	std::map<int, std::string>& getActionMap()
 	{
 		return m_actionMap;
 	};

@@ -132,7 +132,7 @@ void Scene_Play::sAnimation()
 
 	//TODO for each entity call entity.get<CAnimation>().animation.update()
 
-	for (auto e : m_entities.getEntities())
+	for (Entity e : m_entities.getEntities())
 	{
 		if (e.has<CAnimation>())
 		{
@@ -247,7 +247,6 @@ void Scene_Play::sCollision()
 
 void Scene_Play::sDoAction(const Action& action)
 {
-
 	if (action.type() == "START")
 	{
 		if (action.name() == "TOGGLE_TEXTURE")
@@ -462,8 +461,7 @@ void Scene_Play::sRender()
 			gridTexture.display();
 			initialized = true;
 		}
-
-		// Draw the pre-rendered texture once per frame
+		
 		sf::Sprite gridSprite(gridTexture.getTexture());
 		gridSprite.setPosition(-m_camera_offset.x, -m_camera_offset.y);
 		m_game.window().draw(gridSprite);
